@@ -1,0 +1,17 @@
+{
+  "name": "mlsa-rebrand-concept",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && node postbuild.mjs",
+    "start": "next start",
+    "preview": "npx serve out"
+  },
+  "dependencies": {
+    "next": "15.1.6",
+    "playwright": "^1.49.1",
+    "react": "19.0.0",
+    "react-dom": "19.0.0"
+  }
+}
